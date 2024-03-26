@@ -1,0 +1,1 @@
+add_library(elec_lib STATIC electronics_elements.cpp)
