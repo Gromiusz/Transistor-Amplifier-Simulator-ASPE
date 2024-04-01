@@ -17,6 +17,8 @@ add_executable(MAIN main.cpp)
 add_executable(test-ut test-ut.cpp)
 
 target_link_libraries(test-ut GTest::gtest)
+target_link_libraries(test-ut Eigen3::Eigen)
+target_link_libraries(test-ut elec_lib)
 target_link_libraries(MAIN Eigen3::Eigen)
 target_link_libraries(MAIN elec_lib)
 
